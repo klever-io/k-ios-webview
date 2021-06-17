@@ -1,0 +1,737 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B0329BD267ADE3C00FA0078 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B0329BC267ADE3C00FA0078 /* Tests_iOS.swift */; };
+		2B0329C8267ADE3C00FA0078 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B0329C7267ADE3C00FA0078 /* Tests_macOS.swift */; };
+		2B0329CA267ADE3C00FA0078 /* KWebview_demoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B0329A1267ADE3A00FA0078 /* KWebview_demoApp.swift */; };
+		2B0329CB267ADE3C00FA0078 /* KWebview_demoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B0329A1267ADE3A00FA0078 /* KWebview_demoApp.swift */; };
+		2B0329CC267ADE3C00FA0078 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B0329A2267ADE3A00FA0078 /* ContentView.swift */; };
+		2B0329CD267ADE3C00FA0078 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B0329A2267ADE3A00FA0078 /* ContentView.swift */; };
+		2B0329CE267ADE3C00FA0078 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B0329A3267ADE3C00FA0078 /* Assets.xcassets */; };
+		2B0329CF267ADE3C00FA0078 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B0329A3267ADE3C00FA0078 /* Assets.xcassets */; };
+		2B0329E0267ADF7C00FA0078 /* KWebview in Frameworks */ = {isa = PBXBuildFile; productRef = 2B0329DF267ADF7C00FA0078 /* KWebview */; };
+		2B0329E1267ADF7C00FA0078 /* KWebview in Embed Frameworks */ = {isa = PBXBuildFile; productRef = 2B0329DF267ADF7C00FA0078 /* KWebview */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2B0329B9267ADE3C00FA0078 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2B03299C267ADE3A00FA0078 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B0329A7267ADE3C00FA0078;
+			remoteInfo = "KWebview-demo (iOS)";
+		};
+		2B0329C4267ADE3C00FA0078 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2B03299C267ADE3A00FA0078 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B0329AF267ADE3C00FA0078;
+			remoteInfo = "KWebview-demo (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2B0329E2267ADF7C00FA0078 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				2B0329E1267ADF7C00FA0078 /* KWebview in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2B0329A1267ADE3A00FA0078 /* KWebview_demoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KWebview_demoApp.swift; sourceTree = "<group>"; };
+		2B0329A2267ADE3A00FA0078 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2B0329A3267ADE3C00FA0078 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2B0329A8267ADE3C00FA0078 /* KWebview-demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "KWebview-demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B0329AB267ADE3C00FA0078 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B0329B0267ADE3C00FA0078 /* KWebview-demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "KWebview-demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B0329B2267ADE3C00FA0078 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B0329B3267ADE3C00FA0078 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		2B0329B8267ADE3C00FA0078 /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B0329BC267ADE3C00FA0078 /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
+		2B0329BE267ADE3C00FA0078 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B0329C3267ADE3C00FA0078 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B0329C7267ADE3C00FA0078 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
+		2B0329C9267ADE3C00FA0078 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2B0329A5267ADE3C00FA0078 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B0329E0267ADF7C00FA0078 /* KWebview in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B0329AD267ADE3C00FA0078 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B0329B5267ADE3C00FA0078 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B0329C0267ADE3C00FA0078 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B03299B267ADE3A00FA0078 = {
+			isa = PBXGroup;
+			children = (
+				2B0329A0267ADE3A00FA0078 /* Shared */,
+				2B0329AA267ADE3C00FA0078 /* iOS */,
+				2B0329B1267ADE3C00FA0078 /* macOS */,
+				2B0329BB267ADE3C00FA0078 /* Tests iOS */,
+				2B0329C6267ADE3C00FA0078 /* Tests macOS */,
+				2B0329A9267ADE3C00FA0078 /* Products */,
+				2B0329DE267ADF7C00FA0078 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2B0329A0267ADE3A00FA0078 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				2B0329A1267ADE3A00FA0078 /* KWebview_demoApp.swift */,
+				2B0329A2267ADE3A00FA0078 /* ContentView.swift */,
+				2B0329A3267ADE3C00FA0078 /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		2B0329A9267ADE3C00FA0078 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2B0329A8267ADE3C00FA0078 /* KWebview-demo.app */,
+				2B0329B0267ADE3C00FA0078 /* KWebview-demo.app */,
+				2B0329B8267ADE3C00FA0078 /* Tests iOS.xctest */,
+				2B0329C3267ADE3C00FA0078 /* Tests macOS.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2B0329AA267ADE3C00FA0078 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				2B0329AB267ADE3C00FA0078 /* Info.plist */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		2B0329B1267ADE3C00FA0078 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				2B0329B2267ADE3C00FA0078 /* Info.plist */,
+				2B0329B3267ADE3C00FA0078 /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		2B0329BB267ADE3C00FA0078 /* Tests iOS */ = {
+			isa = PBXGroup;
+			children = (
+				2B0329BC267ADE3C00FA0078 /* Tests_iOS.swift */,
+				2B0329BE267ADE3C00FA0078 /* Info.plist */,
+			);
+			path = "Tests iOS";
+			sourceTree = "<group>";
+		};
+		2B0329C6267ADE3C00FA0078 /* Tests macOS */ = {
+			isa = PBXGroup;
+			children = (
+				2B0329C7267ADE3C00FA0078 /* Tests_macOS.swift */,
+				2B0329C9267ADE3C00FA0078 /* Info.plist */,
+			);
+			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+		2B0329DE267ADF7C00FA0078 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2B0329A7267ADE3C00FA0078 /* KWebview-demo (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B0329D2267ADE3C00FA0078 /* Build configuration list for PBXNativeTarget "KWebview-demo (iOS)" */;
+			buildPhases = (
+				2B0329A4267ADE3C00FA0078 /* Sources */,
+				2B0329A5267ADE3C00FA0078 /* Frameworks */,
+				2B0329A6267ADE3C00FA0078 /* Resources */,
+				2B0329E2267ADF7C00FA0078 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "KWebview-demo (iOS)";
+			packageProductDependencies = (
+				2B0329DF267ADF7C00FA0078 /* KWebview */,
+			);
+			productName = "KWebview-demo (iOS)";
+			productReference = 2B0329A8267ADE3C00FA0078 /* KWebview-demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2B0329AF267ADE3C00FA0078 /* KWebview-demo (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B0329D5267ADE3C00FA0078 /* Build configuration list for PBXNativeTarget "KWebview-demo (macOS)" */;
+			buildPhases = (
+				2B0329AC267ADE3C00FA0078 /* Sources */,
+				2B0329AD267ADE3C00FA0078 /* Frameworks */,
+				2B0329AE267ADE3C00FA0078 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "KWebview-demo (macOS)";
+			productName = "KWebview-demo (macOS)";
+			productReference = 2B0329B0267ADE3C00FA0078 /* KWebview-demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2B0329B7267ADE3C00FA0078 /* Tests iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B0329D8267ADE3C00FA0078 /* Build configuration list for PBXNativeTarget "Tests iOS" */;
+			buildPhases = (
+				2B0329B4267ADE3C00FA0078 /* Sources */,
+				2B0329B5267ADE3C00FA0078 /* Frameworks */,
+				2B0329B6267ADE3C00FA0078 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B0329BA267ADE3C00FA0078 /* PBXTargetDependency */,
+			);
+			name = "Tests iOS";
+			productName = "Tests iOS";
+			productReference = 2B0329B8267ADE3C00FA0078 /* Tests iOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		2B0329C2267ADE3C00FA0078 /* Tests macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B0329DB267ADE3C00FA0078 /* Build configuration list for PBXNativeTarget "Tests macOS" */;
+			buildPhases = (
+				2B0329BF267ADE3C00FA0078 /* Sources */,
+				2B0329C0267ADE3C00FA0078 /* Frameworks */,
+				2B0329C1267ADE3C00FA0078 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B0329C5267ADE3C00FA0078 /* PBXTargetDependency */,
+			);
+			name = "Tests macOS";
+			productName = "Tests macOS";
+			productReference = 2B0329C3267ADE3C00FA0078 /* Tests macOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2B03299C267ADE3A00FA0078 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					2B0329A7267ADE3C00FA0078 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					2B0329AF267ADE3C00FA0078 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					2B0329B7267ADE3C00FA0078 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 2B0329A7267ADE3C00FA0078;
+					};
+					2B0329C2267ADE3C00FA0078 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 2B0329AF267ADE3C00FA0078;
+					};
+				};
+			};
+			buildConfigurationList = 2B03299F267ADE3A00FA0078 /* Build configuration list for PBXProject "KWebview-demo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2B03299B267ADE3A00FA0078;
+			productRefGroup = 2B0329A9267ADE3C00FA0078 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2B0329A7267ADE3C00FA0078 /* KWebview-demo (iOS) */,
+				2B0329AF267ADE3C00FA0078 /* KWebview-demo (macOS) */,
+				2B0329B7267ADE3C00FA0078 /* Tests iOS */,
+				2B0329C2267ADE3C00FA0078 /* Tests macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2B0329A6267ADE3C00FA0078 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B0329CE267ADE3C00FA0078 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B0329AE267ADE3C00FA0078 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B0329CF267ADE3C00FA0078 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B0329B6267ADE3C00FA0078 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B0329C1267ADE3C00FA0078 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2B0329A4267ADE3C00FA0078 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B0329CC267ADE3C00FA0078 /* ContentView.swift in Sources */,
+				2B0329CA267ADE3C00FA0078 /* KWebview_demoApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B0329AC267ADE3C00FA0078 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B0329CD267ADE3C00FA0078 /* ContentView.swift in Sources */,
+				2B0329CB267ADE3C00FA0078 /* KWebview_demoApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B0329B4267ADE3C00FA0078 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B0329BD267ADE3C00FA0078 /* Tests_iOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B0329BF267ADE3C00FA0078 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B0329C8267ADE3C00FA0078 /* Tests_macOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2B0329BA267ADE3C00FA0078 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2B0329A7267ADE3C00FA0078 /* KWebview-demo (iOS) */;
+			targetProxy = 2B0329B9267ADE3C00FA0078 /* PBXContainerItemProxy */;
+		};
+		2B0329C5267ADE3C00FA0078 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2B0329AF267ADE3C00FA0078 /* KWebview-demo (macOS) */;
+			targetProxy = 2B0329C4267ADE3C00FA0078 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2B0329D0267ADE3C00FA0078 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2B0329D1267ADE3C00FA0078 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		2B0329D3267ADE3C00FA0078 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PXFJ8P7722;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kwebview.example.KWebview-demo";
+				PRODUCT_NAME = "KWebview-demo";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2B0329D4267ADE3C00FA0078 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PXFJ8P7722;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kwebview.example.KWebview-demo";
+				PRODUCT_NAME = "KWebview-demo";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2B0329D6267ADE3C00FA0078 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = PXFJ8P7722;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kwebview.example.KWebview-demo";
+				PRODUCT_NAME = "KWebview-demo";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		2B0329D7267ADE3C00FA0078 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = PXFJ8P7722;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kwebview.example.KWebview-demo";
+				PRODUCT_NAME = "KWebview-demo";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		2B0329D9267ADE3C00FA0078 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PXFJ8P7722;
+				INFOPLIST_FILE = "Tests iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kwebview.example.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "KWebview-demo (iOS)";
+			};
+			name = Debug;
+		};
+		2B0329DA267ADE3C00FA0078 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PXFJ8P7722;
+				INFOPLIST_FILE = "Tests iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kwebview.example.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "KWebview-demo (iOS)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2B0329DC267ADE3C00FA0078 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = PXFJ8P7722;
+				INFOPLIST_FILE = "Tests macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				PRODUCT_BUNDLE_IDENTIFIER = "kwebview.example.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "KWebview-demo (macOS)";
+			};
+			name = Debug;
+		};
+		2B0329DD267ADE3C00FA0078 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = PXFJ8P7722;
+				INFOPLIST_FILE = "Tests macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				PRODUCT_BUNDLE_IDENTIFIER = "kwebview.example.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "KWebview-demo (macOS)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2B03299F267ADE3A00FA0078 /* Build configuration list for PBXProject "KWebview-demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B0329D0267ADE3C00FA0078 /* Debug */,
+				2B0329D1267ADE3C00FA0078 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B0329D2267ADE3C00FA0078 /* Build configuration list for PBXNativeTarget "KWebview-demo (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B0329D3267ADE3C00FA0078 /* Debug */,
+				2B0329D4267ADE3C00FA0078 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B0329D5267ADE3C00FA0078 /* Build configuration list for PBXNativeTarget "KWebview-demo (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B0329D6267ADE3C00FA0078 /* Debug */,
+				2B0329D7267ADE3C00FA0078 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B0329D8267ADE3C00FA0078 /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B0329D9267ADE3C00FA0078 /* Debug */,
+				2B0329DA267ADE3C00FA0078 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B0329DB267ADE3C00FA0078 /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B0329DC267ADE3C00FA0078 /* Debug */,
+				2B0329DD267ADE3C00FA0078 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2B0329DF267ADF7C00FA0078 /* KWebview */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = KWebview;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 2B03299C267ADE3A00FA0078 /* Project object */;
+}
